@@ -1,0 +1,84 @@
+h1 {
+    text-align: center;
+    background: black;
+    background-color:rgba(60,60,60,0.5);
+    margin: 0;
+    padding: 25px 5px;
+    font-weight: 100;
+    letter-spacing: 2px;
+    color:ghostwhite;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+p{
+  font-size: 22px;
+  background: -webkit-linear-gradient(lightgrey, grey);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin:0 0 0 40;
+}
+
+a:link {
+    color: mediumvioletred;
+}
+
+a:visited {
+    color: green;
+}
+
+a:hover {
+    color: hotpink;
+}
+
+a:active {
+    color: blue;
+}
+
+.text{
+    color:ivory;
+    text-align: center;
+}
+
+.lists{
+    color:ivory;
+    text-align: center;
+}
+
+.div .p .external_link{
+    color:ghostwhite;
+}
+
+#notice-bar{
+  position: fixed;
+  bottom: 0;
+  right: 10%;
+  width: 8em;
+  margin-top: -2.5em;
+  background-color: rgba(70,70,70,0.8);
+}
+
+.topUl {
+  text-align: center;
+}
+.topUl > ul {
+  display: inline-block;
+}
+
+.emphasis{
+    text-align:center;
+}
+
+.notice{
+    color:ghostwhite;
+}
+
